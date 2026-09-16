@@ -1,0 +1,12 @@
+# Tres servicios: la base, api_implementos y front_flask.
+# `docker compose up -d --build` tiene que dejar los tres en pie.
+# La base carga db/init.sql en el PRIMER arranque: si cambia el script,
+# hace falta `docker compose down -v` para que vuelva a correr.
+#
+# PUERTOS DE ESTA EVALUACION — no los cambie, estan registrados:
+#   base ...... 15466
+#   API ....... 8092
+#   pantalla .. 8093
+#
+# El front NO lleva el driver de PostgreSQL ni la cadena de conexion.
+# Si se la pone, la separacion de procesos deja de existir.
