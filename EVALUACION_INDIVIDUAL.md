@@ -83,9 +83,10 @@ sección lo lleva de la mano: son unos diez minutos la primera vez.
 
 4. Botón verde **Create repository**.
 
-> **Marque «Add a README file».** Si no lo marca, el repositorio nace **vacío y
-> sin rama**, y los comandos de más abajo fallan con un mensaje que no dice lo
-> que pasa. Marcándolo, todo funciona a la primera.
+> **Marque «Add a README file».** No es imprescindible —sin él también
+> funciona— pero el repositorio nace con una rama y **usted ve algo en GitHub
+> desde el primer minuto**, en vez de una página de instrucciones. Con dos horas
+> encima, eso ahorra una duda.
 
 ---
 
